@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Segoe UI", Roboto, sans-serif;
+}
+
+:root {
+  --bg: #f0f2f5;
+  --sidebar-bg: #ffffff;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --border: #e2e8f0;
+  --accent-bg: #eff6ff;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-main);
+}
